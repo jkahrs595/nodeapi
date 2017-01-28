@@ -1,0 +1,19 @@
+{
+  "name": "nodeapi",
+  "version": "0.0.1",
+  "description": "A starter project for node/express/mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Justin Kahrs <jkahrs@iu.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
